@@ -1,0 +1,203 @@
+
+.heading{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.font_change{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.listHeading{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.subheading{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.colorChange{
+    color: #10b981;
+}
+.para{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.foote_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bannerContainer{
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bannerContainer>img{
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
+
+.topBar{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+}
+
+.whiteColor{
+    color: white;
+}
+
+.category{
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.flagIconContainer{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.flagIconContainer>span{
+    color: white;
+    font-size: 12px;
+}
+
+.flagIconContainer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopByCategoryContainer{
+    margin: 20px 0;
+}
+
+.shopByCategoryContainer>.shopByCategory{
+    border-radius: 5px ;
+    background-color: white;
+}
+
+.sliders{
+    width: 95%;
+    margin: 40px auto;
+}
+
+.topbrands{
+    width: 95%;
+    margin: 40px auto;
+}
+
+.searchContainer{
+    width: 75%;
+    border: 2px solid #10b981;
+    border-radius: 0;
+}
+
+.searchBtn{
+    background-color:#10b981;
+    border-left: 2px solid #10b981;
+}
+.searchBtn>.searchBtnIcon{
+    color: white !important;
+}
+
+.formContainer>div{
+    position: relative;
+    top: 0;
+}
+
+.formContainer>.focus>.ShowContainer{
+    position: absolute;
+    width: 111%;
+    top: 40px;
+    background-color: white;
+    z-index: 1;
+    padding: 10px;
+    visibility: hidden;
+    border-left: 1px solid #10b981;
+    border-right: 1px solid #10b981;
+    border-bottom: 1px solid #10b981;
+
+}
+
+.menu{
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.parafont{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+}
+.footerLink{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.topbarnavLink{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+.productboder{
+    border: 1px solid #79ffd2;
+}
+.menu>.section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #10b981;
+    width: fit-content;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.menu>.section>.para{
+    font-size: 14px;
+}
+.ShowContainer>.item{
+    margin-top: 20px;
+}
+.ShowContainer>.item>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.ShowContainer>.item>ul>li{
+    padding: 5px 10px;
+    width: fit-content;
+    border: 2px solid #10b981;
+    font-size: 13px;
+}
+
+#focus-element:focus +.ShowContainer{
+    visibility: visible;
+}
+
+.formContainer>div> input[type="text"]:focus + .ShowContainer{
+    visibility: visible;
+}
+@media screen and (max-width:1023px) {
+    
+    .locationAdding{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:) {
+    
+}
