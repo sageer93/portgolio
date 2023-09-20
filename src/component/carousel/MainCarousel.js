@@ -34,9 +34,7 @@ const MainCarousel = () => {
     fetchBanner()
   },[])
 
-  console.log(banner)
-console.log("https://main-bxox.onrender.com/uploads/banners/1694868199841-823811438.jpg")
-console.log(`${banner[0]?.banner}`)
+  
 
   return (
     <>

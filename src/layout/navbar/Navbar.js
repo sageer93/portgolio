@@ -80,7 +80,7 @@ const Navbar = () => {
           <div  className="top-bar h-14 lg:h-auto flex items-center justify-between py-2 mx-auto" >
             <Link href="/">
               <a className="mr-3 lg:block">
-                <Image width={100} height={50} src="/logo/richesm ORGANIC.png" alt="logo" />
+                {/* <Image width={100} height={50} src="/logo/richesm ORGANIC.png" alt="logo" /> */}
               </a>
             </Link>
             <div className="locationAdding ">
@@ -105,7 +105,7 @@ const Navbar = () => {
                   >
                     <div className="focus flex items-center py-0.5">
                       <input
-                        id="focus-element" autoFocus={true}
+                        id="focus-element" 
                         onChange={(e) => setSearchText(e.target.value)}
                         value={searchText}
                         className="form-input w-full pl-5 appearance-none transition ease-in-out border text-input text-sm font-sans min-h-10 h-8 duration-200 bg-white focus:ring-0 outline-none border-none focus:outline-none placeholder-gray-500 placeholder-opacity-75"
